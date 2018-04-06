@@ -1,0 +1,6 @@
+setupRequired(pyfits)
+# When prototype code actual has eups package
+#setupRequired(dbb_gwclient)
+
+envPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
+envPrepend(PATH, ${PRODUCT_DIR}/bin)
